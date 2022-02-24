@@ -1,0 +1,75 @@
+.fields {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.fields > * {
+  flex: 1;
+}
+
+.input_field {
+  width: calc(100% - 32px);
+}
+
+.select_field {
+  width: 100%;
+}
+
+.input_field,
+.select_field {
+  border: 2px solid black;
+  border-radius: 12px;
+  outline: none;
+  margin-top: 8px;
+  padding: 16px;
+  font-size: 16px;
+  background: white;
+}
+
+.button_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.calculate_button {
+  max-width: 445px;
+  width: 100%;
+  padding: 16px;
+  background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+  font-size: 24px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.calculate_button:hover {
+  transform: scale(1.03);
+  transition: all ease 1000ms;
+}
+
+.result_field {
+  border: 2px solid black;
+  border-radius: 12px;
+  outline: none;
+  margin-top: 8px;
+  padding: 16px;
+  height: 50px;
+  font-size: 48px;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.title {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
